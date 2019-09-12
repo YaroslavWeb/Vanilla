@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LW '19-'20</title>
+    <!--Libs-->
+    <link rel="stylesheet" href="../libs/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="bg-dark text-white">Лабораторная работа №1</h1>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <img class="img-fluid rounded mx-auto d-block" src="img1.png">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <h1 class="">Задание 1.3</h1>
+            <div class="input-group col-12">
+                <input type="text" class="form-control" id="input-val-add" placeholder="Введите образец пароля">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" id="btn-add" type="button">Внести образец</button>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th>Образцы пароля</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="input-group col-12">
+                <input type="text" class="form-control" id="input-val-checkout" placeholder="Ваш пароль" a>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" id="btn-checkout" type="button">Проверить</button>
+                </div>
+            </div>
+            <div class="col-12" id="output-pas"></div>
+        </div>
+        <hr>
+        <div class="row">
+            <h1 class="">Задание 1.4</h1>
+            <div class="input-group col-12">
+                <input type="text" class="form-control" id="input-calc" placeholder="Введите числа через пробел">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" id="btn-num" type="button">Вычислить</button>
+                </div>
+            </div>
+            <div class="col-12" id="output-num"></div>
+        </div>
+    </div>
+</body>
+
+<script src="../libs/jquery-3.4.1.min.js"></script>
+<script src="./scripts.js"></script>
+
+</html>
