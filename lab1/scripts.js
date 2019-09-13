@@ -1,7 +1,6 @@
 "use strict";
 
 // Exercise 1.3
-
 let passwords = ['qwerty', '1qaz2wsx'];
 
 for (let pas in passwords) $('tbody').append(`
@@ -32,7 +31,6 @@ $('#btn-checkout').click(() => {
 });
 
 // Exercise 1.4
-
 $('#btn-num').click(() =>{
     let value = $('#input-calc').val();
     
