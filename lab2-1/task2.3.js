@@ -35,7 +35,7 @@ let transMatr = (fileName) => {
 
 
 try {
-    transMatr('matr.txt')
+    transMatr('matr.txt');
 } catch (error) {
     console.log('Ошибка:', error.message);
 }

@@ -31,5 +31,4 @@ try {
     findBigestNum()
 } catch (err) {
     console.log('Ошибка:', err.message);
-
 }
