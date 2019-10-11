@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<tariffs>
+    <tariff>
+        <name>FREE-MTS</name>
+        <operator>MTS</operator>
+        <payroll>99</payroll>
+        <callPrices>
+            <inside>1</inside>
+            <outside>2</outside>
+            <stac>3</stac>
+        </callPrices>
+        <smsPrice>1</smsPrice>
+        <parameters>
+            <favorite>2</favorite>
+            <rate>1</rate>
+            <connectionPayment>10</connectionPayment>
+        </parameters>
+    </tariff>
+    <tariff>
+        <name>FREE-TELE2</name>
+        <operator>TELE2</operator>
+        <payroll>99</payroll>
+        <callPrices>
+            <inside>1</inside>
+            <outside>2</outside>
+            <stac>3</stac>
+        </callPrices>
+        <smsPrice>1</smsPrice>
+        <parameters>
+            <favorite>3</favorite>
+            <rate>1</rate>
+            <connectionPayment>30</connectionPayment>
+        </parameters>
+    </tariff>
+    <tariff>
+        <name>MEGA-TELE2</name>
+        <operator>TELE2</operator>
+        <payroll>199</payroll>
+        <callPrices>
+            <inside>1</inside>
+            <outside>2</outside>
+            <stac>3</stac>
+        </callPrices>
+        <smsPrice>5</smsPrice>
+        <parameters>
+            <favorite>1</favorite>
+            <rate>1</rate>
+            <connectionPayment>0</connectionPayment>
+        </parameters>
+    </tariff>
+</tariffs>
