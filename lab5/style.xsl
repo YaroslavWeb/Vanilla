@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
    <body>
    <h2>Tariffs</h2>
    <table border="1">
-     <tr bgcolor="#9acd32">
+     <tr>
        <th>Name</th>
        <th>Operator</th>
        <th>Payroll</th>
