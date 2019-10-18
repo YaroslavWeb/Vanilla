@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teachers>
+    <teacher>
+        <name>Краковский Ю.М.</name>
+        <subjects>
+            <subject>Дисциплина №1</subject>
+            <subject>Дисциплина №2</subject>
+        </subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>55</amount_students>
+    </teacher>
+    <teacher>
+        <name>Кашковский В.В.</name>
+        <subjects>
+            <subject>Дисциплина №3</subject>
+            <subject>Дисциплина №4</subject>
+        </subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>55</amount_students>
+    </teacher>
+    <teacher>
+        <name>Лучников В.А.</name>
+        <subjects>
+            <subject>Дисциплина №5</subject>
+        </subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>55</amount_students>
+    </teacher>
+    <teacher>
+        <name>Кириллова Т.К.</name>
+        <subjects>
+            <subject>Дисциплина №6</subject>
+        </subjects>
+        <amount_subjects>1</amount_subjects>
+        <amount_students>55</amount_students>
+    </teacher>
+</teachers>

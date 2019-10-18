@@ -1,0 +1,79 @@
+{
+	"subjects": {
+		"subject": [
+			{
+				"name": "Дисцилина №1",
+				"date": "Пн",
+				"class": "10"
+			},
+			{
+				"name": "Дисцилина №2",
+				"date": "Вт",
+				"class": "11"
+			},
+			{
+				"name": "Дисцилина №3",
+				"date": "Вт",
+				"class": "20"
+			},
+			{
+				"name": "Дисцилина №4",
+				"date": "Ср",
+				"class": "22"
+			},
+			{
+				"name": "Дисцилина №5",
+				"date": "Чт",
+				"class": "30"
+			},
+			{
+				"name": "Дисцилина №6",
+				"date": "Пт",
+				"class": "33"
+			}
+		]
+	}, 
+	
+	"teachers": {
+		"teacher": [
+			{
+				"name": "Краковский Ю.М.",
+				"subjects": {
+					"subject": [
+						"Дисциплина №1",
+						"Дисциплина №2"
+					]
+				},
+				"amount_subjects": "1",
+				"amount_students": "55"
+			},
+			{
+				"name": "Кашковский В.В.",
+				"subjects": {
+					"subject": [
+						"Дисциплина №3",
+						"Дисциплина №4"
+					]
+				},
+				"amount_subjects": "1",
+				"amount_students": "55"
+			},
+			{
+				"name": "Лучников В.А.",
+				"subjects": {
+					"subject": "Дисциплина №5"
+				},
+				"amount_subjects": "1",
+				"amount_students": "55"
+			},
+			{
+				"name": "Кириллова Т.К.",
+				"subjects": {
+					"subject": "Дисциплина №6"
+				},
+				"amount_subjects": "1",
+				"amount_students": "55"
+			}
+		]
+	}
+}

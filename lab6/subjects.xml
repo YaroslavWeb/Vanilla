@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subjects>
+    <subject>
+        <name>Дисцилина №1</name>
+        <time>Пн</time>
+        <class>10</class>
+    </subject>
+    <subject>
+        <name>Дисцилина №2</name>
+        <time>Вт</time>
+        <class>11</class>
+    </subject>
+    <subject>
+        <name>Дисцилина №3</name>
+        <time>Вт</time>
+        <class>20</class>
+    </subject>
+    <subject>
+        <name>Дисцилина №4</name>
+        <time>Ср</time>
+        <class>22</class>
+    </subject>
+    <subject>
+        <name>Дисцилина №5</name>
+        <time>Чт</time>
+        <class>30</class>
+    </subject>
+    <subject>
+        <name>Дисцилина №6</name>
+        <time>Пт</time>
+        <class>33</class>
+    </subject>
+</subjects>
