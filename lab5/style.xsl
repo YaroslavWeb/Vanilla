@@ -4,15 +4,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
 <xsl:template match="/">
    <html>
    <body>
-   <h2>Tariffs</h2>
+   <h2>Тарифы</h2>
    <table border="1">
      <tr>
-       <th>Name</th>
-       <th>Operator</th>
-       <th>Payroll</th>
-       <th>Call prices</th>
-       <th>SMS price</th>
-       <th>Parameters</th>
+       <th>Название</th>
+       <th>Оператор</th>
+       <th>Расценки</th>
+       <th>Цена звонка</th>
+       <th>СМС цена</th>
+       <th>Параметры</th>
      </tr>
      <xsl:for-each select="tariffs/tariff">
      <xsl:sort select="payroll"/>
@@ -22,9 +22,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
        <td><xsl:value-of select="payroll"/></td>
      <td>
          <ul>
-             <li><span>inside</span><xsl:value-of select="callPrices/inside "/></li>
-             <li><span>outside</span><xsl:value-of select="callPrices/outside "/></li>
-             <li><span>stac</span><xsl:value-of select="callPrices/stac "/></li>
+             <li><span>Внутри сети</span><xsl:value-of select="callPrices/inside "/></li>
+             <li><span>Вне сети</span><xsl:value-of select="callPrices/outside "/></li>
+             <li><span>Стационарные</span><xsl:value-of select="callPrices/stac "/></li>
          </ul>
     </td>
 
